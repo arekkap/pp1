@@ -1,0 +1,10 @@
+x=int(input('Podaj x: '))
+y=int(input('Podaj y: '))
+
+if x>0 and y>0: print('I Ćwiartka')
+elif x<0 and y>0: print('II Ćwiartka')
+elif x<0 and y<0: print('III Ćwiartka')
+elif x>0 and y<0: print('IV Ćwiartka')
+elif x==0 and y!=0: print('Oś Y')
+elif x!=0 and y==0: print('Oś X')
+elif x==0 and y==0: print('Początek układu')
